@@ -1,0 +1,5 @@
+Site,Depot_A,Depot_B,Depot_C,Depot_D
+Depot_A,0,40,40,40
+Depot_B,40,0,40,40
+Depot_C,40,40,0,40
+Depot_D,40,40,40,0

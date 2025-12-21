@@ -1,0 +1,7 @@
+Site,Tunis,Sfax,Sousse,Bizerte,Gabes,Kairouan
+Tunis,0,100,100,100,80,100
+Sfax,100,0,100,80,100,100
+Sousse,100,100,0,100,80,100
+Bizerte,100,80,100,0,60,80
+Gabes,80,100,80,60,0,100
+Kairouan,100,100,100,80,100,0

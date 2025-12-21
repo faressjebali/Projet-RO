@@ -1,0 +1,5 @@
+Site,Port_Bizerte,Zone_Sousse,Pole_Sfax,Hub_Tunis
+Port_Bizerte,0,7,9,3
+Zone_Sousse,7,0,5,5
+Pole_Sfax,9,5,0,9
+Hub_Tunis,3,5,9,0

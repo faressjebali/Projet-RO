@@ -1,0 +1,4 @@
+Site,Usine_Nord,Usine_Sud,Usine_Centre
+Usine_Nord,0,150,80
+Usine_Sud,150,0,120
+Usine_Centre,80,120,0

@@ -1,0 +1,5 @@
+Site,Centre_1,Centre_2,Centre_3,Centre_4
+Centre_1,0,2,3,4
+Centre_2,2,0,2.5,3.5
+Centre_3,3,2.5,0,3
+Centre_4,4,3.5,3,0

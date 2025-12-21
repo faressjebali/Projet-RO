@@ -1,0 +1,70 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# DÉPENDANCES OPTIAPPRO v2.1.0
+# Optimisation de l'Approvisionnement Inter-Sites
+# INSAT - Année universitaire 2025-2026 | Khalil Chikhaoui
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPTIMISATION (REQUIS)
+# ─────────────────────────────────────────────────────────────────────────────
+gurobipy>=10.0.0              # Solveur d'optimisation linéaire (licence académique)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# INTERFACE GRAPHIQUE (REQUIS)
+# ─────────────────────────────────────────────────────────────────────────────
+PyQt6>=6.4.0                  # Framework GUI moderne
+PyQt6-Qt6>=6.4.0              # Bibliothèques Qt6
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CALCUL SCIENTIFIQUE (REQUIS)
+# ─────────────────────────────────────────────────────────────────────────────
+numpy>=1.21.0                 # Calcul matriciel
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VISUALISATION STATIQUE (REQUIS)
+# ─────────────────────────────────────────────────────────────────────────────
+matplotlib>=3.5.0             # Graphiques scientifiques
+seaborn>=0.12.0               # Visualisations statistiques élégantes
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VISUALISATION INTERACTIVE (RECOMMANDÉ - Graphe de flux professionnel)
+# ─────────────────────────────────────────────────────────────────────────────
+plotly>=5.0.0                 # Graphiques interactifs HTML
+networkx>=2.6                 # Algorithmes de graphes (layouts)
+kaleido>=0.2.0                # Export images haute qualité (PNG/SVG/PDF)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# IMPORT/EXPORT DONNÉES (OPTIONNEL mais recommandé)
+# ─────────────────────────────────────────────────────────────────────────────
+pandas>=1.4.0                 # Manipulation de données tabulaires
+openpyxl>=3.0.10              # Lecture/écriture Excel (.xlsx)
+xlrd>=2.0.1                   # Lecture Excel (.xls - anciens formats)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GÉNÉRATION DE RAPPORTS (OPTIONNEL)
+# ─────────────────────────────────────────────────────────────────────────────
+reportlab>=3.6.0              # Génération de PDF
+
+# ─────────────────────────────────────────────────────────────────────────────
+# QUALITÉ ET TESTS (DÉVELOPPEMENT)
+# ─────────────────────────────────────────────────────────────────────────────
+pytest>=7.0.0                 # Framework de tests
+pytest-qt>=4.0.0              # Tests pour PyQt
+black>=22.0.0                 # Formatage de code
+pylint>=2.15.0                # Analyse statique de code
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# NOTES D'INSTALLATION
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Installation basique (minimum):
+#   pip install gurobipy PyQt6 numpy matplotlib
+#
+# Installation complète (recommandée):
+#   pip install -r requirements.txt
+#
+# Licence Gurobi:
+#   1. Obtenir une licence académique gratuite sur: https://www.gurobi.com/academia/
+#   2. Installer la licence avec: grbgetkey VOTRE-CLE-LICENCE
+#
+# ═══════════════════════════════════════════════════════════════════════════════
